@@ -1,6 +1,6 @@
 # **Application de Microservices avec Spring Boot**
 
-    Ce projet met en œuvre une architecture de microservices avec Spring Boot. Chaque service a un rôle spécifique dans le système global de gestion de facturation.
+Ce projet met en œuvre une architecture de microservices avec Spring Boot. Chaque service a un rôle spécifique dans le système global de gestion de facturation.
 
 ## Architecture
 
@@ -8,11 +8,11 @@ Dans cette architecture de microservices, les différentes composantes interagis
 
 ![arch](https://github.com/HOUD-FatimaEzzahra/Spring-Cloud/blob/main/Architecture.png)
 
-1. **Service Client** (Customer-service)
-
-- Entité Customer: Représente les détails d'un client.
-- Interface CustomerRepository: Gère la persistance des données des clients.
-- API Restful: Fournit des endpoints pour les opérations CRUD.
+    1. **Service Client** (Customer-service)
+    
+    - Entité Customer: Représente les détails d'un client.
+    - Interface CustomerRepository: Gère la persistance des données des clients.
+    - API Restful: Fournit des endpoints pour les opérations CRUD.
 
 2. **Service Inventaire** (Inventory-service)
 

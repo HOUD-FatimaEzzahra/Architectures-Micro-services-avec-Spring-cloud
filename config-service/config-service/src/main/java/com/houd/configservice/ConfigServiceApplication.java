@@ -1,13 +1,13 @@
-package com.houd.kafkacloud;
+package com.houd.configservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-
 @SpringBootApplication
-public class KafkaCloudApplication {
+public class ConfigServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(KafkaCloudApplication.class, args);
+        SpringApplication.run(ConfigServiceApplication.class, args);
     }
+
 }

@@ -1,10 +1,10 @@
-package com.houd.kafkacloud;
+package com.houd.configservice;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class KafkaCloudApplicationTests {
+class ConfigServiceApplicationTests {
 
     @Test
     void contextLoads() {
